@@ -1,5 +1,15 @@
 # Journal des modifications
 
+## 2.0
+- Onglet « Rapport par spool » renommé « Rapport par page/Spool » (Report per page/Spool).
+
+## 1.9
+- Aide : le bouton « ? » en haut (près de l'icône de scan) contient maintenant le principe du programme, le mode d'emploi et les anciennes définitions, en français et en anglais ; l'onglet « Aide » est supprimé.
+- Traduction anglaise de l'onglet Soudure et de l'onglet « Créer spools ».
+
+## 1.8
+- Nouvel onglet « Aide » : principe du programme et mode d'emploi (scanner, créer les spools, soudures SW/FW, conseils).
+
 ## 1.7
 - Fenêtre de joints : choix adaptés à la pièce (coude 0-2, té 0-3, vanne 0-2…).
 - Quantité ou longueur supérieure à la liste de matériel : la fenêtre vibre et demande de vérifier les quantités.
