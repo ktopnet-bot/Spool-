@@ -1,5 +1,8 @@
 # Journal des modifications
 
+## 2.1
+- « Créer spools » : dans la fenêtre d'une pièce, « Déplacer vers une autre page » coupe un tube (ou déplace des pièces) vers une autre page du même ISO (ex. de P3 vers P4) pour continuer un spool.
+
 ## 2.0
 - Onglet « Rapport par spool » renommé « Rapport par page/Spool » (Report per page/Spool).
 
