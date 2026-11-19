@@ -1,5 +1,14 @@
 # Journal des modifications
 
+## 1.7
+- Fenêtre de joints : choix adaptés à la pièce (coude 0-2, té 0-3, vanne 0-2…).
+- Quantité ou longueur supérieure à la liste de matériel : la fenêtre vibre et demande de vérifier les quantités.
+
+## 1.6
+- « Créer spools » : boulonnerie jamais affichée ; chaque spool a une couleur de fond différente.
+- Pouces à souder affichés avec 2 décimales (ex. 2,75).
+- Soudure chantier (FW) : repère des spools reliés par chaque soudure (ex. SP3/SP4), modifiable.
+
 ## 1.5
 - SW + FW = total de l'onglet « Soudure » : le chantier (FW) reprend aussi les joints prévus par la règle automatique mais non retenus dans les spools créés.
 
