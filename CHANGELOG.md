@@ -1,5 +1,8 @@
 # Journal des modifications
 
+## 2.5
+- Tubes : choix du nombre de joints (auto, 0, 1, 2, 3, 4) dans la fenêtre de « Créer spools » et dans les lignes de spool.
+
 ## 2.4
 - Vannes : nouveau choix « Raccordement » (formulaire Information) : bridée RF/RTJ = 0 joint (par défaut), BW ou SW = toujours 2 joints × diamètre. Le scanner reconnaît BW / SW dans la description.
 
