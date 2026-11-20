@@ -1,5 +1,8 @@
 # Journal des modifications
 
+## 2.2
+- « Déplacer vers une autre page » disponible pour toutes les pièces : brides, vannes, coudes, tés, accessoires et pièces libres (la pièce libre ouvre maintenant la fenêtre, sans choix de joints).
+
 ## 2.1
 - « Créer spools » : dans la fenêtre d'une pièce, « Déplacer vers une autre page » coupe un tube (ou déplace des pièces) vers une autre page du même ISO (ex. de P3 vers P4) pour continuer un spool.
 
