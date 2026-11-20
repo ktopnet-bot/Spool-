@@ -1,5 +1,11 @@
 # Journal des modifications
 
+## 2.4
+- Vannes : nouveau choix « Raccordement » (formulaire Information) : bridée RF/RTJ = 0 joint (par défaut), BW ou SW = toujours 2 joints × diamètre. Le scanner reconnaît BW / SW dans la description.
+
+## 2.3
+- Vannes à brides (RF / RTJ) : 0 joint, aucun pouce à souder (montage boulonné), y compris les petites vannes ≤ 2". Seule une vanne BW compte 2 joints.
+
 ## 2.2
 - « Déplacer vers une autre page » disponible pour toutes les pièces : brides, vannes, coudes, tés, accessoires et pièces libres (la pièce libre ouvre maintenant la fenêtre, sans choix de joints).
 
