@@ -2,7 +2,7 @@
 
 Application web pour créer les spools d'un isométrique : on choisit l'ISO (et la page), une pièce de sa liste de matériel, la quantité (ou la longueur d'un tube) et le numéro du spool. Elle fonctionne dans le navigateur, sans serveur ; les données restent sur l'appareil.
 
-**Créé par Kamel Nasralli** · Version 2.8 · Licence MIT
+**Créé par Kamel Nasralli** · Version 2.9 · Licence MIT
 
 ## Fonctionnalités
 

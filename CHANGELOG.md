@@ -1,5 +1,8 @@
 # Journal des modifications
 
+## 2.9
+- Aperçu de la lecture de l'isométrique : l'image est affichée au-dessus de la répartition (toucher pour agrandir) afin de vérifier.
+
 ## 2.8
 - « Lire l'isométrique avec Claude » (version publiée sur claude.ai uniquement, absente de la copie GitHub hors ligne) : photo du dessin + liste de matériel envoyées à Claude, qui repère les X (limites de spool), les repères SP et les cotes et propose la répartition des pièces et des longueurs de tube ; aperçu à valider.
 
