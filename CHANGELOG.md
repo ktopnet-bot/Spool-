@@ -1,29 +1,5 @@
 # Journal des modifications
 
-## 3.3
-- Lecture de l'isométrique sans accès IA intégré (copie GitHub, téléphone…) : bouton « Copier la demande pour Claude » (liste numérotée + consignes), puis collage de la réponse JSON de Claude et aperçu à valider. L'ancienne méthode par nombre de X reste en dessous, repliée.
-
-## 3.2
-- Lecture de l'isométrique : le PDF est accepté directement (plus de conversion en image). Le dessin est rendu en entier (même si la page est rognée), recadré, et les repères SP lus dans le texte du PDF sont transmis à Claude avec leur position.
-
-## 3.1
-- Contraintes de transport et de montage : longueur max d'un spool (12 m par défaut) et surlongueur de 100 mm à chaque soudure chantier (réglables) ; contrôle de la longueur de tube de chaque spool (alerte rouge si dépassement), dans l'aperçu et dans la liste des spools ; ces contraintes sont aussi transmises à Claude pour la lecture de l'isométrique.
-
-## 3.0
-- La lecture de l'isométrique devient la méthode principale de création automatique (chaque iso a ses contraintes) ; la répartition par nombre de X reste seulement comme méthode approximative hors ligne.
-
-## 2.9
-- Aperçu de la lecture de l'isométrique : l'image est affichée au-dessus de la répartition (toucher pour agrandir) afin de vérifier.
-
-## 2.8
-- « Lire l'isométrique avec Claude » (version publiée sur claude.ai uniquement, absente de la copie GitHub hors ligne) : photo du dessin + liste de matériel envoyées à Claude, qui repère les X (limites de spool), les repères SP et les cotes et propose la répartition des pièces et des longueurs de tube ; aperçu à valider.
-
-## 2.7
-- Création automatique : vocabulaire « X = limite de spool » (symbole soudure chantier du dessin) ; n X = n + 1 spools.
-
-## 2.6
-- « Créer spools » : création automatique par soudures chantier (FW). n FW = n + 1 spools, pièces réparties dans l'ordre de la liste de matériel à poids équilibré, tubes coupés si besoin, aperçu à valider avant application.
-
 ## 2.5
 - Tubes : choix du nombre de joints (auto, 0, 1, 2, 3, 4) dans la fenêtre de « Créer spools » et dans les lignes de spool.
 
