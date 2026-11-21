@@ -1,5 +1,17 @@
 # Journal des modifications
 
+## 3.3
+- Lecture de l'isométrique sans accès IA intégré (copie GitHub, téléphone…) : bouton « Copier la demande pour Claude » (liste numérotée + consignes), puis collage de la réponse JSON de Claude et aperçu à valider. L'ancienne méthode par nombre de X reste en dessous, repliée.
+
+## 3.2
+- Lecture de l'isométrique : le PDF est accepté directement (plus de conversion en image). Le dessin est rendu en entier (même si la page est rognée), recadré, et les repères SP lus dans le texte du PDF sont transmis à Claude avec leur position.
+
+## 3.1
+- Contraintes de transport et de montage : longueur max d'un spool (12 m par défaut) et surlongueur de 100 mm à chaque soudure chantier (réglables) ; contrôle de la longueur de tube de chaque spool (alerte rouge si dépassement), dans l'aperçu et dans la liste des spools ; ces contraintes sont aussi transmises à Claude pour la lecture de l'isométrique.
+
+## 3.0
+- La lecture de l'isométrique devient la méthode principale de création automatique (chaque iso a ses contraintes) ; la répartition par nombre de X reste seulement comme méthode approximative hors ligne.
+
 ## 2.9
 - Aperçu de la lecture de l'isométrique : l'image est affichée au-dessus de la répartition (toucher pour agrandir) afin de vérifier.
 
