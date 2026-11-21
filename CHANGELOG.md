@@ -1,5 +1,11 @@
 # Journal des modifications
 
+## 2.7
+- Création automatique : vocabulaire « X = limite de spool » (symbole soudure chantier du dessin) ; n X = n + 1 spools.
+
+## 2.6
+- « Créer spools » : création automatique par soudures chantier (FW). n FW = n + 1 spools, pièces réparties dans l'ordre de la liste de matériel à poids équilibré, tubes coupés si besoin, aperçu à valider avant application.
+
 ## 2.5
 - Tubes : choix du nombre de joints (auto, 0, 1, 2, 3, 4) dans la fenêtre de « Créer spools » et dans les lignes de spool.
 
