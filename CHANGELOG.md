@@ -1,5 +1,8 @@
 # Journal des modifications
 
+## 2.6
+- « Créer spools » : bouton « Importer des spools (fichier) » : charge un fichier JSON ou CSV déjà réparti par spool ; résumé (lignes, spools, ISO) puis Importer / Ajouter / Remplacer les ISO existants ; les spools apparaissent créés avec poids, peinture et soudures.
+
 ## 2.5
 - Tubes : choix du nombre de joints (auto, 0, 1, 2, 3, 4) dans la fenêtre de « Créer spools » et dans les lignes de spool.
 
