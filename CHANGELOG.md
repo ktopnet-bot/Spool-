@@ -1,5 +1,11 @@
 # Journal des modifications
 
+## 2.9
+- « Créer spools » : option « Coller du JSON ou du CSV » : on colle le texte reçu de Claude (même avec du texte autour), résumé puis import.
+
+## 2.8
+- Le bouton d'import de « Créer spools » accepte maintenant aussi les PDF (« Importer des spools (PDF ou JSON) ») : un PDF est lu par Claude pour l'ISO choisi (aperçu à valider) ; si Claude est indisponible, un message explique comment obtenir un JSON à importer.
+
 ## 2.7
 - « Lire l'isométrique avec Claude » (version publiée sur claude.ai) : accepte directement un PDF (choix de la page, dessin rendu en entier et recadré, repères SP lus dans le texte du PDF) ou une image ; Claude repère les X, les repères SP et les cotes ; aperçu avec l'image à valider avant création des spools. Si Claude n'est pas accessible, un message donne la raison et un mode copier/coller est proposé.
 
