@@ -1,5 +1,8 @@
 # Journal des modifications
 
+## 2.7
+- « Lire l'isométrique avec Claude » (version publiée sur claude.ai) : accepte directement un PDF (choix de la page, dessin rendu en entier et recadré, repères SP lus dans le texte du PDF) ou une image ; Claude repère les X, les repères SP et les cotes ; aperçu avec l'image à valider avant création des spools. Si Claude n'est pas accessible, un message donne la raison et un mode copier/coller est proposé.
+
 ## 2.6
 - « Créer spools » : bouton « Importer des spools (fichier) » : charge un fichier JSON ou CSV déjà réparti par spool ; résumé (lignes, spools, ISO) puis Importer / Ajouter / Remplacer les ISO existants ; les spools apparaissent créés avec poids, peinture et soudures.
 
