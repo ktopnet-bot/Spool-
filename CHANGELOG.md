@@ -1,5 +1,8 @@
 # Journal des modifications
 
+## 3.0
+- Import : un tube de plus de 12 m dans un spool est coupé automatiquement en parties de 12 m maximum (spools SP04, SP04-B…), avec un joint FW chantier ajouté.
+
 ## 2.9
 - « Créer spools » : option « Coller du JSON ou du CSV » : on colle le texte reçu de Claude (même avec du texte autour), résumé puis import.
 
