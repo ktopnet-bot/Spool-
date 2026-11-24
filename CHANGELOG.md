@@ -1,5 +1,11 @@
 # Journal des modifications
 
+## 3.1
+- Import tolérant : alias de champs (anglais/français), longueurs en mm, formats « 6 in », matériaux (A106, 316L…), listes à la racine ou imbriquées par page/spool.
+- Rapport de contrôle détaillé avant import (corrections, lignes ignorées, valeurs permises).
+- Contrôles automatiques : spool sans soudure atelier, tube > 12 m, comparaison avec le total tube de la nomenclature (champ « bom »).
+- Bouton « Copier le prompt IA » : prompt complet + format JSON à donner à Claude avec le PDF.
+
 ## 3.0
 - Import : un tube de plus de 12 m dans un spool est coupé automatiquement en parties de 12 m maximum (spools SP04, SP04-B…), avec un joint FW chantier ajouté.
 
