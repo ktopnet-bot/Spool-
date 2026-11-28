@@ -1,5 +1,27 @@
 # Journal des modifications
 
+## 3.6
+- Supprimé : les deux limites réglables (poids max d'un spool, tube max). Le contrôle de tube > 12 m reste fixe.
+- Scanner : les lignes « tige filetée + écrous » sont toujours masquées (la boulonnerie reste comptée automatiquement avec les brides).
+- Scanner : plus de confirmation « lignes sans spool » à l'ajout (les spools se créent à la main ensuite).
+- Correction : un robinet-vanne dont la description cite « joint spirale » ou « chapeau boulonné » n'était plus ignoré ; sa matière n'est plus lue « inox 316 » à cause du joint (corps A216 WCB = acier carbone).
+
+## 3.5
+- Nettoyage : 47 fonctions inutilisées retirées (anciens restes du scanner : tampons, spools, soudures et cotes du dessin ; fonctions mortes) — fichier allégé de 56 Ko, démarrage et scan plus rapides.
+- Créer spools : limites de transport réglables (poids max d'un spool, tube max, 5000 kg et 12 m par défaut) et contrôle automatique par spool : tube trop long, spool trop lourd, pièces sans joint à souder.
+- Chaque spool affiche aussi sa longueur de tube et sa surface de peinture.
+
+## 3.4
+- Scanner : si le moteur de lecture ne peut pas se charger (page ouverte dans l'application Claude), un seul message clair remplace la liste de pages vides ; délai de chargement réduit à 60 s.
+
+## 3.3
+- Scanner : le moteur de lecture (Tesseract) charge maintenant sa langue depuis jsDelivr (au lieu de tessdata.projectnaptha.com, parfois bloqué), avec repli sur l'ancienne adresse, affichage de l'étape de chargement, et arrêt avec message clair après 150 s au lieu de rester bloqué sur « Lecture de la page 1 ».
+
+## 3.2
+- Création automatique des spools par Claude supprimée (lecture d'isométrique, demande à copier, réponse à coller, import PDF, prompt IA) : les spools se créent à la main dans « Créer spools ».
+- Scanner plus rapide : seuls le cartouche et le tableau de liste de matériel sont lus (plus de lecture des tampons, spools, soudures et cotes du dessin). Les joints sont calculés par les règles : coude 2, réduction 2, té 3, bride 1, fond 1…
+- L'import JSON / CSV est conservé.
+
 ## 3.1
 - Import tolérant : alias de champs (anglais/français), longueurs en mm, formats « 6 in », matériaux (A106, 316L…), listes à la racine ou imbriquées par page/spool.
 - Rapport de contrôle détaillé avant import (corrections, lignes ignorées, valeurs permises).
